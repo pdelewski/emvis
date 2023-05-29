@@ -1,0 +1,10 @@
+class EmVisLexer
+{
+  byte [] input;
+  int len;
+  public void Init(byte [] input, int len)
+  {
+    this.input = input;
+    this.len = len;
+  }
+}
